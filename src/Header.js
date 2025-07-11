@@ -10,7 +10,7 @@ const Header = () => {
             <div className='header-first'>
                 <div className='header-logo'>
                     <img src={logo} />
-                    <h6>Matt Zhang</h6>
+                    <h6>Future Ready</h6>
                 </div>
                 <div className='header-text'>
                     <h1>Upgrade <span><i>your skills</i></span> from the comfort of home.</h1>

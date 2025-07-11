@@ -15,7 +15,7 @@ const Service = () => {
         <div className="service-cont2">
           <div className="header-logo">
             <img src={logo} />
-            <h6>Matt Zhang</h6>
+            <h6>Expert Services</h6>
           </div>
           <div className="header-text">
             <h1>
