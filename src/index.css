@@ -215,6 +215,85 @@ code {
   padding: 1rem;
 }
 
+.work-title{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding-top: 6rem;
+}
+
+.work-title2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.work-title2 h1{
+  font-size: 4rem;
+  font-weight: bolder;
+}
+
+.work-title2 span{
+  font-size: 4rem;
+  font-weight: 200;
+  color: #333;
+}
+
+.work-title2 p{
+  font-size: #333;
+  font-size: 1rem;
+}
+
+.work-card{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 1rem;
+  padding-top: 2rem;
+}
+
+.carder{
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.card-img{
+  width: 400px;
+  height: 280px;
+}
+
+.card-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 30px;
+}
+
+.card-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.card-text h5{
+  font-weight: bold;
+  color: #333;
+}
+
+.card-text p{
+  text-align: start;
+  color: #333;
+}
+
 @media (max-width: 991.98px) {
   .nav-links {
     width: 100%;

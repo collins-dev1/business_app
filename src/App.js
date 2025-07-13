@@ -4,6 +4,7 @@ import AppNavbar from './Navbar';
 import Header from './Header';
 import Service from './Service';
 import Education from './Education';
+import Works from './Works';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
        <Header/>
        <Service/>
        <Education/>
+       <Works/>
       </div>
       
     </div>
