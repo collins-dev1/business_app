@@ -5,6 +5,7 @@ import Header from './Header';
 import Service from './Service';
 import Education from './Education';
 import Works from './Works';
+import Testimony from './Testimony';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
        <Service/>
        <Education/>
        <Works/>
+       <Testimony/>
       </div>
       
     </div>

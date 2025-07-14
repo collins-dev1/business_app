@@ -1,6 +1,5 @@
 import React from "react";
 import logo from "../src/images/logo2.png";
-import Card from "react-bootstrap/Card";
 import headerimg from "../src/images/headerimage.jpeg";
 import certimg from "../src/images/cert.jpeg";
 import seatimg from "../src/images/seat.jpeg";
