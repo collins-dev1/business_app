@@ -5,6 +5,12 @@ import { BsArrowRight } from "react-icons/bs";
 import headerimg from "../src/images/headerimage.jpeg";
 import certimg from "../src/images/cert.jpeg";
 import seatimg from "../src/images/seat.jpeg";
+import test1 from "../src/images/test1.jpeg";
+import test2 from '../src/images/test2.jpeg';
+import test3 from '../src/images/test3.jpeg';
+import test4 from "../src/images/test4.jpeg";
+import test5 from "../src/images/test5.jpeg";
+import test6 from "../src/images/test6.jpeg";
 
 const Testimony = () => {
   return (
@@ -35,53 +41,53 @@ const Testimony = () => {
         <div class="collage">
           <img
             class="avatar"
-            src="https://source.unsplash.com/200x200?sig=1"
+            src={test1}
             alt=""
           />
           <img
             class="avatar"
-            src="https://source.unsplash.com/200x200?sig=2"
+            src={test2}
             alt=""
           />
           <img
             class="avatar"
-            src="https://source.unsplash.com/200x200?sig=3"
+            src={test3}
             alt=""
           />
           <img
             class="avatar"
-            src="https://source.unsplash.com/200x200?sig=4"
+            src={test4}
             alt=""
           />
           <img
             class="avatar"
-            src="https://source.unsplash.com/200x200?sig=5"
+            src={test5}
             alt=""
           />
           <img
             class="avatar"
-            src="https://source.unsplash.com/200x200?sig=6"
+            src={test6}
             alt=""
           />
           <img
             class="avatar"
-            src="https://source.unsplash.com/200x200?sig=7"
+            src={test1}
             alt=""
           />
           <img
             class="avatar"
-            src="https://source.unsplash.com/200x200?sig=8"
+            src={test3}
             alt=""
           />
           <img
             class="avatar"
-            src="https://source.unsplash.com/200x200?sig=9"
+            src={test4}
             alt=""
           />
 
-          <div class="card">
+          <div class="card" id="card">
             <img
-              src="https://source.unsplash.com/200x200?sig=21"
+              src={test2}
               alt="Richard Hodi"
             />
             <div class="info">
