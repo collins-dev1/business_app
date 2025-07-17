@@ -7,6 +7,7 @@ import Education from './Education';
 import Works from './Works';
 import Testimony from './Testimony';
 import Subscribe from './Subscribe';
+import Footer from './Footer';
 
 function App() {
   return (
@@ -19,8 +20,9 @@ function App() {
        <Works/>
        <Testimony/>
        <Subscribe/>
+       
       </div>
-      
+      <Footer />
     </div>
   );
 }
