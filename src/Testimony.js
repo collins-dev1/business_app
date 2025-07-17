@@ -103,12 +103,14 @@ const Testimony = () => {
           </svg>
         </div>
       </div>
-      <p class="quote">
+      <div className="text-quote">
+        <p class="quote">
         "I had an amazing experience! The courses are well‑structured, easy to
         follow, and the instructors are truly helpful. I learned at my own pace
         and received a certificate that boosted my confidence. Highly
         recommended!"
       </p>{" "}
+      </div>
     </div>
   );
 };

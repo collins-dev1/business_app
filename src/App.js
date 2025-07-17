@@ -6,6 +6,7 @@ import Service from './Service';
 import Education from './Education';
 import Works from './Works';
 import Testimony from './Testimony';
+import Subscribe from './Subscribe';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
        <Education/>
        <Works/>
        <Testimony/>
+       <Subscribe/>
       </div>
       
     </div>
