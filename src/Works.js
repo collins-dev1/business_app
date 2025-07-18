@@ -13,38 +13,57 @@ const Works = () => {
           <h6>900+ Course</h6>
         </div>
         <div className="work-title2">
-            <h1>How it's <span><i>work?</i></span></h1>
-            <p>Choose a course, enroll easy, start learning anytime with expert <br></br> guidance and flexible schedule.</p>
+          <h1>
+            How it's{" "}
+            <span>
+              <i>work?</i>
+            </span>
+          </h1>
+          <p>
+            Choose a course, enroll easy, start learning anytime with expert{" "}
+            <br></br> guidance and flexible schedule.
+          </p>
         </div>
       </div>
-      <div className="work-card">
+      <div className="main-card-holder">
+        <div className="work-card">
           <div className="carder">
             <div className="card-img">
-                <img src={headerimg}/>
+              <img src={headerimg} />
             </div>
             <div className="card-text">
-                <h5>Find your Course</h5>
-                <p>Browse top-rated courses to match your interest, goals, and skill level today.</p>
+              <h5>Find your Course</h5>
+              <p>
+                Browse top-rated courses to match your interest, goals, and
+                skill level today.
+              </p>
             </div>
           </div>
           <div className="carder">
             <div className="card-img">
-                <img src={seatimg}/>
+              <img src={seatimg} />
             </div>
             <div className="card-text">
-                <h5>Book A Seat</h5>
-                <p>Enroll in your chosen course quickly with easy booking and instant confirmation system.</p>
+              <h5>Book A Seat</h5>
+              <p>
+                Enroll in your chosen course quickly with easy booking and
+                instant confirmation system.
+              </p>
             </div>
           </div>
           <div className="carder">
             <div className="card-img">
-                <img src={certimg}/>
+              <img src={certimg} />
             </div>
             <div className="card-text">
-                <h5>Get Certificate</h5>
-                <p>Complete the course successfully and recieve a certificate to showcase your achivement proudly.</p>
+              <h5>Get Certificate</h5>
+              <p>
+                Complete the course successfully and recieve a certificate to
+                showcase your achivement proudly.
+              </p>
             </div>
           </div>
+        </div>
       </div>
     </div>
   );

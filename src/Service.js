@@ -30,7 +30,8 @@ const Service = () => {
           <Button className="header-button">View All Services</Button>
         </div>
       </div>
-      <div className="card-cont">
+      <div className="main-card-cont">
+        <div className="card-cont">
         <>
           {[
             "Light",
@@ -151,6 +152,7 @@ const Service = () => {
             
           ))}
         </>
+      </div>
       </div>
     </div>
   );
