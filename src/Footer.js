@@ -25,7 +25,7 @@ const Footer = () => {
               <h5 className="footer-text1 fw-bold">Matt Zhang</h5>
             </Navbar.Brand>
           </div>
-          <p>Learn new skills online and grow your<br></br> career with confidence.</p>
+          <p>Learn new skills online and grow your career with confidence.</p>
           <div className="footer-icons">
             <FaFacebook className="fs-5" />
             <PiInstagramLogoFill className="fs-5" />

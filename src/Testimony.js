@@ -6,11 +6,12 @@ import headerimg from "../src/images/headerimage.jpeg";
 import certimg from "../src/images/cert.jpeg";
 import seatimg from "../src/images/seat.jpeg";
 import test1 from "../src/images/test1.jpeg";
-import test2 from '../src/images/test2.jpeg';
-import test3 from '../src/images/test3.jpeg';
+import test2 from "../src/images/test2.jpeg";
+import test3 from "../src/images/test3.jpeg";
 import test4 from "../src/images/test4.jpeg";
 import test5 from "../src/images/test5.jpeg";
 import test6 from "../src/images/test6.jpeg";
+import { PiArrowBendLeftUpThin } from "react-icons/pi";
 
 const Testimony = () => {
   return (
@@ -37,79 +38,64 @@ const Testimony = () => {
           </Button>
         </div>
       </div>
-      <div class="hero">
-        <div class="collage">
-          <img
-            class="avatar"
-            src={test1}
-            alt=""
-          />
-          <img
-            class="avatar"
-            src={test2}
-            alt=""
-          />
-          <img
-            class="avatar"
-            src={test3}
-            alt=""
-          />
-          <img
-            class="avatar"
-            src={test4}
-            alt=""
-          />
-          <img
-            class="avatar"
-            src={test5}
-            alt=""
-          />
-          <img
-            class="avatar"
-            src={test6}
-            alt=""
-          />
-          <img
-            class="avatar"
-            src={test1}
-            alt=""
-          />
-          <img
-            class="avatar"
-            src={test3}
-            alt=""
-          />
-          <img
-            class="avatar"
-            src={test4}
-            alt=""
-          />
-
-          <div class="card" id="card">
-            <img
-              src={test2}
-              alt="Richard Hodi"
-            />
-            <div class="info">
-              <p class="name">Richard Hodi</p>
-              <p class="role">Developer</p>
-            </div>
+      <div className="main-cardcont">
+        <div className="grid-one">
+          <div>
+            <img src={test1} />
+          </div>
+          <div>
+            <img src={test2} />
+          </div>
+          <div>
+            <img src={certimg} />
+          </div>
+          <div>
+            <img src={test4} />
           </div>
         </div>
-        <div class="arrow">
-          <svg viewBox="0 0 200 120">
-            <path d="M0 0 C100 120 100 120 200 0" />
-            <path d="M200 0 L190 20 M200 0 L210 20" />
-          </svg>
+        <div className="grid-two">
+          <div>
+            <img src={test5} />
+          </div>
+          <div className="grid-card">
+            <div className="gridcard-imgg">
+              <img src={test2} />
+            </div>
+            <div className="gridcard-text">
+              <h3>Richard Hodi</h3>
+              <p>Developer</p>
+            </div>
+          </div>
+          <div>
+            <img src={test1} />
+          </div>
         </div>
+        <div className="grid-three">
+          <div>
+            <img src={test2} />
+          </div>
+          <div>
+            <img src={test4} />
+          </div>
+          <div>
+            <img src={seatimg} />
+          </div>
+          <div>
+            <img src={certimg} />
+          </div>
+        </div>
+      </div>
+      <div className="arroww">
+        <PiArrowBendLeftUpThin className="icon" />
+
       </div>
       <div className="text-quote">
         <p class="quote">
-        "I had an amazing experience! The courses are well‑structured, easy to
-        follow, and the instructors are truly helpful. I learned at my own pace
-        and received a certificate that boosted my confidence. Highly
-        recommended!"
-      </p>{" "}
+          "I had an amazing experience! The courses are well‑structured, easy to
+          follow, and the instructors are truly helpful. I learned at my own
+          pace and received a certificate that boosted my confidence. Highly
+          recommended!"
+        </p>{" "}
       </div>
     </div>
   );
