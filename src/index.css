@@ -820,7 +820,6 @@ code {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-right: 10.5rem;
   }
 
   .service-cont2 {
@@ -932,5 +931,48 @@ code {
 
 .copy-cont {
   flex-direction: column;
+}
+
+.main-cardcont{
+  flex-direction: column;
+  padding: 4rem;
+}
+
+.grid-one{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.grid-two{
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+  padding: 0;
+  position: relative;
+  order: 3;
+}
+
+.grid-three{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin-top: 5rem;
+}
+
+.grid-two div:first-child{
+  width: 300px;
+  height: 250px;
+}
+
+.grid-two div:last-child{
+  width: 300px;
+  height: 250px;
+}
+
+.grid-card{
+  height: 400px;
+  width: 320px;
+  order: 3;
 }
 }
